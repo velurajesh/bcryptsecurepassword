@@ -1,0 +1,27 @@
+{
+  "name": "mybcrypt",
+  "version": "1.0.0",
+  "description": "node bcryptjs handlebars",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "bcryptjs",
+    "cloud"
+  ],
+  "author": "Akhil",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bcryptjs": "latest",
+    "body-parser": "^1.14.2",
+    "chalk": "^1.1.1",
+    "express": "^4.13.3",
+    "express-handlebars": "latest",
+    "express-session": "^1.12.1",
+    "mongodb": "latest",
+    "mongoose": "latest"
+  }
+}
